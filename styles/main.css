@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --color-red:RGB(217, 14, 24);
+}
+
+body{
+background-color: black;
+color: white;
+
+}
+
+/*---------HEADER------------------*/
+
+
+.container{ 
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 97%;
+  margin: auto;
+  padding: 5px;
+ 
+
+}
+
+.logo{ 
+  margin-right: 50px;
+  color: var(--color-red);
+}
+
+
+.container nav a{   
+  text-decoration: none;
+  color: aliceblue;
+  margin-right: 20px;
+  
+}
+.container nav a:hover{   
+ color:var(--color-red);
+  
+}
+
+
+
+/*----------- /HEADER----------------*/
