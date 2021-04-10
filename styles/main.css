@@ -50,7 +50,7 @@ color: whitesmoke;
 /*----------- /HEADER----------------*/
 
 .filme-principal{
-  background:linear-gradient(rgba(0, 0, 0, 0.392),rgba(112, 112, 112, 0.275)), url("/img/fundo.jpg");
+  background:linear-gradient(rgba(0, 0, 0, 0.392),rgba(112, 112, 112, 0.275)), url("../img/fundo.jpg");
   background-size: cover;
   height: 400px;
   display: flex;
