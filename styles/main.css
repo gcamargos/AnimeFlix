@@ -47,3 +47,23 @@ color: white;
 
 
 /*----------- /HEADER----------------*/
+
+.filme-principal{
+  background:linear-gradient(rgba(19, 6, 6, 0.5),rgba(10, 10, 10, 0.508)), url("/img/fundo.jpg");
+  background-size: cover;
+  height: 500px;
+  display: flex;
+ 
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+.container-filme{
+  
+  width: 70%;
+}
+.filme-info{
+  width: 50%;
+}
