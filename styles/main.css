@@ -35,12 +35,13 @@ color: white;
 
 .container nav a{   
   text-decoration: none;
-  color: aliceblue;
+  color: rgb(133, 133, 133);
   margin-right: 20px;
+  font-size: 15px;
   
 }
 .container nav a:hover{   
- color:var(--color-red);
+color: whitesmoke;
   
 }
 
@@ -49,9 +50,9 @@ color: white;
 /*----------- /HEADER----------------*/
 
 .filme-principal{
-  background:linear-gradient(rgba(19, 6, 6, 0.5),rgba(10, 10, 10, 0.508)), url("/img/fundo.jpg");
+  background:linear-gradient(rgba(0, 0, 0, 0.392),rgba(112, 112, 112, 0.275)), url("/img/fundo.jpg");
   background-size: cover;
-  height: 500px;
+  height: 400px;
   display: flex;
  
   flex-direction: column;
@@ -59,11 +60,105 @@ color: white;
   align-items: flex-start;
 
 }
+.titulo-filme{
+  
+  font-size: 35px;
+}
 
 .container-filme{
   
   width: 70%;
+  margin-left: 22.4483px;
 }
 .filme-info{
+  margin-top: 15px;
   width: 50%;
+  font-weight: 700;
 }
+.botoes{
+  margin-top: 5%;
+  display: flex;
+}
+
+.button{
+  padding: 15px 20px;
+  border: none;
+  color: white;
+  margin-right: 15px;
+  background-color: rgba(0, 0, 0, 0.515);
+  font-size: 13px;
+  cursor: pointer;
+  width: 205px;
+  border-radius: 5px  30px;
+transition-duration: 0.4s;
+outline: none;
+}
+.button:hover{
+  color:rgba(0, 0, 0, 0.796); 
+  background-color: white;
+  border-radius: 30px  5px;
+  border: none;
+  text-decoration: none;
+  outline: none;
+}
+.button i {
+  margin-right: 15px;
+}
+
+.carrousel{
+  margin-top: 1%;
+}
+
+
+
+
+@media (min-width:800px){
+  .owl-carousel .owl-item img{
+  height: 400px;
+}
+}
+@media (max-width:900px){
+  .container-filme{
+    width: 70%;
+  }
+  .filme-info{
+    width: 70%;
+  }
+}
+@media (max-width:633px){
+  .container-filme{
+    width: 80%;
+  }
+  .filme-info{
+    width: 90%;
+  }
+  .botoes{
+    
+  }
+
+}
+@media (max-width:530px){
+  .container-filme{
+    width: 80%;
+  }
+  .filme-info{
+    width: 100%;
+  }
+  .botoes{
+    flex-direction: column;
+    
+  }
+  .botoes .button{
+    margin-top: 10px;
+  }
+  .container{
+    flex-direction: column;
+  }
+
+}
+@media(max-width:311px){
+  .container nav a {
+    margin-right: 5px;
+  }
+}
+
