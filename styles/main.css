@@ -19,7 +19,7 @@ color: white;
 .container{ 
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: space-between;
   width: 97%;
   margin: auto;
   padding: 5px;
